@@ -8,7 +8,9 @@ Route::get('/', [PagesController::class, 'home']);
 Route::get('/about', [PagesController::class, 'about']);
 Route::get('/contact', [PagesController::class, 'contact']);
 
-
+Route::get('/{name1}/{name2}', function($name1, $name2){
+    return $name1.' va '.$name2;
+})
 
 
 
