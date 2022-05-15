@@ -1,0 +1,114 @@
+.s7{
+    .teacher-container{
+        .container{
+            .teacher-content{
+                // background-color: #f6f7fb;
+                h2{
+                    text-align: start;
+                    font-size: 25px;
+                    font-weight: 600;
+                    padding: 0;
+                }
+                .teacher-call{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 10px;
+                    .teacher-image{
+                        margin: 10px;
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        border: 4px solid #f0ac22;
+                        overflow: hidden;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .box{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        margin: 10px 20px;
+                        i{
+                            font-size: 30px;
+                            color: #f0ac22
+                        }
+                    }
+                    .telegram{
+                        a{
+                            background-color: #4886ff;
+                            padding: 5px 30px;
+                            border-radius: 10px;
+                            transition: .3s linear;
+                            i{
+                                color: #fff;
+                                font-size: 18px;
+                                transition: .5s;
+                            }
+                            &:hover{
+                                background-color: #3477fd;
+                                i{
+                                    color: #999;
+                                }
+                            }
+                        }
+                    }
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .all-teachers{
+                height: 150vh;
+                overflow-y: auto;
+                h2{
+                    text-align: start;
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 0;
+                }
+                p{
+                    text-align: start;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding: 0;
+                }
+                .teacher-box{
+                    opacity: .7;
+                    transition: .3s linear;
+                    a{
+                        text-decoration: none;
+                        .image{
+                            // overflow: hidden;
+                            img{
+                                width: 100%;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                        }
+                        h3{
+                            font-size: 20px;
+                            color: #3477fd;
+                            font-weight: 600;
+                        }
+                        p{
+                            font-size: 18px;
+                            font-weight: 500;
+                            line-height: 17px;
+                            color: #333;
+                        }
+                    }
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+                hr{
+                    height: 2px;
+                }
+            }
+        }
+
+    }
+}
